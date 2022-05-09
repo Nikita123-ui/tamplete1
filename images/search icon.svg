@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Component_1_5" width="22.075" height="22.86" data-name="Component 1 – 5" viewBox="0 0 22.075 22.86">
+    <g id="prefix__Path_1401" data-name="Path 1401" style="fill:none">
+        <path d="M8 0a8 8 0 1 1-8 8 8 8 0 0 1 8-8z" style="stroke:none"/>
+        <path d="M8 3C5.243 3 3 5.243 3 8s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5m0-3c4.418 0 8 3.582 8 8s-3.582 8-8 8-8-3.582-8-8 3.582-8 8-8z" style="fill:#fff;stroke:none"/>
+    </g>
+    <path id="prefix__Path_1369" d="M1867.924 615.71l8.09 8.09" data-name="Path 1369" transform="translate(-1855 -602)" style="stroke:#fff;stroke-width:3px;fill:none"/>
+</svg>

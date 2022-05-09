@@ -1,0 +1,26 @@
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #262626;
+    width: 100%;
+    z-index: 1;
+}
+.top-bar{
+    display: flex;
+    justify-content: end;
+    padding: 20px 20px 15px 15px;
+    margin-right: 100px;
+}
+.top-para {
+    font-family: ProximaNova-Regular;
+    color: #fff;
+    line-height: 1.2;
+    font-size: 20px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+.searchIcon{
+    width: 21.8px;
+    height: 18.2px;
+}

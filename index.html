@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sticky-nav.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="content.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="font-family.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <script
+      src="https://kit.fontawesome.com/b35ad37bd7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function toggleHamBurger() {
+        if (document.getElementById('check').value == 1) {
+          document.getElementById('check').value = 0;
+          document.getElementById('mobileNav').style = 'display:none';
+        } else {
+          document.getElementById('check').value = 1;
+          document.getElementById('mobileNav').style = 'display:block';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <!-- container start -->
+    <div class="container">
+      <div class="sticky-nav">
+        <div class="top-bar">
+          <span class="top-para">(800) 648-1687</span>
+          <span class="searchIcon">
+            <img src="./images/search icon.svg" alt="search-bar" />
+          </span>
+        </div>
+      </div>
+      <!-- header start -->
+      <header>
+        <div class="nav">
+          <div class="left">
+            <img src="./images/logo.svg" alt="Logo" />
+          </div>
+          <div class="right">
+            <!-- hamburger -->
+            <input type="checkbox" id="check" value="0" />
+            <label for="check" class="checkbtn" onclick="toggleHamBurger()">
+              <i class="fas fa-bars"></i>
+            </label>
+            <!-- hamburger end -->
+            <div class="navigations" id="navigations">
+              <a href="#">Our Company</a>
+              <a href="#">what we do</a>
+              <a href="#">Contact us</a>
+              <button class="btn1">Request a quote</button>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile navigation  -->
+        <div class="mobile-nav" id="mobileNav">
+          <div class="mobileNav">
+            <a href="#">Our Company</a>
+            <a href="#">what we do</a>
+            <a href="#">Contact us</a>
+            <button class="btn1">Request a quote</button>
+          </div>
+        </div>
+        <!-- Mobile navigation  -->
+        <div class="headerContent">
+          <span class="heading">NitroSteel</span>
+        </div>
+        <div class="bottomContent">
+          <p class="bottomPara">
+            A longer-lasting alternative to chrome plating, NitroSteel/FNC is a
+            ferritic nitrocarburized bar that is wear-resistant and
+            corrosion-resistant. It supplies durability and leaves no hazardous
+            byproduct in our facility or your operations.
+          </p>
+        </div>
+        <!-- header end -->
+      </header>
+      <!-- content start -->
+      <div class="content">
+        <!-- section-1 -->
+        <section class="portFolio_section">
+          <div class="portfolio-header">
+            <h1>Why NitroSteel?</h1>
+          </div>
+          <div class="grid">
+            <div class="box1">
+              <div class="div1">
+                <img src="./images/pipe.png" alt="pipe" />
+              </div>
+              <div class="div2">
+                <h2>Superior Performance</h2>
+                <p>
+                  Superior corrosion resistance means no pitting and flaking,
+                  unlike chrome.
+                </p>
+              </div>
+            </div>
+            <div class="box2">
+              <div class="div1">
+                <img src="./images/shutterstock.png" alt="shutterstock" />
+              </div>
+              <div class="div2">
+                <h2>Increased Profitability</h2>
+                <p>
+                  Wear resistance ensures a durable and long-lasting product
+                  that keeps your equipment out of the shop and in the field.
+                </p>
+              </div>
+            </div>
+            <div class="box3">
+              <div class="div1">
+                <img src="./images/redshutter.png" alt="redshutter" />
+              </div>
+              <div class="div2">
+                <h2>Environmentally Safe</h2>
+                <p>
+                  Unlike chrome, NitroSteel leaves no hazardous byproduct in our
+                  facility or in your operations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section2 -->
+        <div class="portfolio-part2">
+          <div class="wrapper">
+            <div class="part1">
+              <img src="./images/NitroSteel Logo.png" alt="logo" />
+              <span>VS.</span>
+              <h1>Chrome Plated</h1>
+            </div>
+          </div>
+          <div class="picture">
+            <div class="pic1">
+              <img src="./images/left.png" alt="" />
+            </div>
+            <div class="pic2">
+              <img src="./images/right.png" alt="" />
+            </div>
+          </div>
+          <div class="wrapper wrapper2">
+            <div class="part2">
+              <ul>
+                <li>Superior Corrosion Resistance</li>
+                <li>Improved Wear Resistance</li>
+                <li>Better Lubrication Retention</li>
+                <li>Dent Resistance without Induction Hardening</li>
+                <li>Environmentally Friendly</li>
+                <li>No Surface Pitting or Flaking</li>
+                <li>Increased Service Life</li>
+              </ul>
+            </div>
+            <div class="part3">
+              <ul>
+                <li>“Micro Cracks” allow for Moisture Penetration and Rust</li>
+                <li>Flakes and Slivers Destroy Seals and Glands</li>
+                <li>Plating Creates Pits and Inherent Adhesion problems</li>
+                <li>Environmentally Hazardous</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- section3 -->
+        <div class="section3">
+          <div class="detail-section">
+            <div class="d1">
+              <h1>Start Today</h1>
+              <button class="btn2">Contact Us</button>
+            </div>
+            <div class="d2">
+              <h3><span class="rounded-border">1</span> contact us</h3>
+              <h3>
+                <span class="rounded-border">2</span> Review Your RFQ Together
+              </h3>
+              <h3>
+                <span class="rounded-border">3</span> Recieve Your Product
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- content end -->
+      </div>
+
+      <!-- footer start -->
+      <footer>
+        <!-- footer end -->
+      </footer>
+
+      <!-- container end -->
+    </div>
+  </body>
+</html>

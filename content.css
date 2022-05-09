@@ -1,0 +1,186 @@
+.portFolio_section{
+    background-color: #ededed;
+    padding: 32px;
+}
+.portfolio-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-header > h1{
+    font-family: Titillium-Bold;
+    font-size: 40px;
+    color: #1361aa;
+    margin-bottom: 75px;
+    line-height: 1.38;
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: auto;
+    margin-right: 38px;
+    margin-left: -10px;
+}
+.box1, .box2, .box3{
+    width: 33.33%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    margin-left: 50px;
+}
+
+.box1 img{
+    width: 100%;
+    overflow: hidden;
+}
+.box2 img {
+    width: 100%;
+    overflow: hidden;
+}
+.box3 img {
+    width: 100%;
+    overflow: hidden;
+}
+.div2{
+    padding: 10px 30px 30px 30px;
+    color: #262626;
+}
+.div2 > h2{
+    margin-top:5px ;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: ProximaNova-Bold;
+}
+.div2>p{
+    margin: 0;
+    font-size: 16px;
+    font-family: ProximaNova-Light;
+    line-height: 1.56;
+}
+.portfolio-part2{
+    background-image: url(./images/img1.png);
+    height: 713px;
+    margin-top: -80px;
+    background-position: center center;
+}
+.wrapper{
+    max-width: 800px;
+    margin: auto;
+    min-height: 230px;
+    position: relative;
+}
+.part1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+}
+.part1 img{
+    object-fit: contain;
+    margin-top: 10px;
+}
+.part1 span{
+    font-size: 40px;
+    font-family: ProximaNova-SemiBold;
+    line-height: 0.7;
+    letter-spacing: 2px;
+    color: #fff;
+   
+}
+.part1 h1{
+    font-size: 45px;
+    font-family: Titillium-Bold;
+    color: #fff;
+    line-height: 1.22;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic1, .pic2{
+    width: 50%;
+    overflow: hidden;
+}
+
+.wrapper2{
+    display: flex;
+    justify-content: space-between;
+}
+.part2, .part3{
+    font-size: 16px;
+    font-family: ProximaNova-Regular;
+    color: #fff;
+    line-height: 1.25;  
+    opacity: .75;
+    margin-left: 50px;
+    width: 50%;
+}
+.part3{
+    margin-left: 100px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+.section3{
+    background-image: url(./images/Springshocks.png);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: -40px;
+    position: relative;
+}
+.detail-section{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 46%;
+    top: 20%;
+    
+}
+
+.d1{
+    margin-right: 80px;
+}
+.d1 h1{
+    font-size: 40px;
+    color: #262626;
+    font-family: Titillium-Bold;
+    line-height: 1.25;
+}
+.d2{
+    /* width: 55%; */
+    margin-top: 20px;
+}
+.btn2{
+    margin-top: 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    font-family: ProximaNova-Bold;
+    letter-spacing: .45px;
+}
+.rounded-border {
+    border-radius: 50%;
+    background-color: #1361aa;
+    color: #fff;
+    line-height: 2.08;
+    text-align: center;
+    padding: 3px 15px;
+    font-family: Titillium-Black;
+    font-size: 24px;
+}
+.d2>h3 {
+    font-family: ProximaNova-Bold;
+    margin: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: ProximaNova XBold;
+    src: url(./fonts/ProximaNovaExtrabold/fontsfree-net-proxima-nova-xbold-webfont.eot),
+        url(./fonts/ProximaNovaExtrabold/fontsfree-net-proxima-nova-xbold-webfont.woff),
+        url(./fonts/ProximaNovaExtrabold/fontsfree-net-proxima-nova-xbold-webfont.woff2);
+}
+
+@font-face {
+    font-family: ProximaNova-Bold;
+    src: url(./fonts/ProximaNovaCondensedBold/fontsfree-net-proxima-nova-bold-webfont.eot),
+        url(./fonts/ProximaNovaCondensedBold/fontsfree-net-proxima-nova-bold-webfont.woff),
+        url(./fonts/ProximaNovaCondensedBold/fontsfree-net-proxima-nova-bold-webfont.woff2),
+        url(./fonts/ProximaNovaCondensedBold/fontsfree-net-proxima-nova-bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url(./fonts/ProximaNovaCondensedRegular/proximanovacond-regular-webfont.eot),
+        url(./fonts/ProximaNovaCondensedRegular/proximanovacond-regular-webfont.woff),
+        url(./fonts/ProximaNovaCondensedRegular/proximanovacond-regular-webfont.woff2),
+        url(./fonts/ProximaNovaCondensedRegular/proximanovacond-regular-webfont.svg),
+        url(./fonts/ProximaNovaCondensedRegular/proximanovacond-regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova-Medium;
+    src: url(./fonts/ProximaNovaMedium/fontsfree-net-pr14-webfont.eot),
+        url(./fonts/ProximaNovaMedium/fontsfree-net-pr14-webfont.woff),
+        url(./fonts/ProximaNovaMedium/fontsfree-net-pr14-webfont.woff2),
+        url(./fonts/ProximaNovaMedium/FontsFree-Net-pr14.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova-Light;
+    src: url(./fonts/ProximaNovaCondesedLight/fontsfree-net-proxima-nova-light-webfont.eot),
+        url(./fonts/ProximaNovaCondesedLight/fontsfree-net-proxima-nova-light-webfont.svg),
+        url(./fonts/ProximaNovaCondesedLight/fontsfree-net-proxima-nova-light-webfont.woff),
+        url(./fonts/ProximaNovaCondesedLight/fontsfree-net-proxima-nova-light-webfont.woff2),
+        url(./fonts/ProximaNovaCondesedLight/FontsFree-Net-Proxima-Nova-Light.otf);
+}
+@font-face {
+    font-family: ProximaNova-SemiBold;
+    src: url(./fonts/ProximaNovaCondensedSemiBold/proximanova-semibold-webfont.eot),
+    url(./fonts/ProximaNovaCondensedSemiBold/proximanova-semibold-webfont.woff),
+    url(./fonts/ProximaNovaCondensedSemiBold/proximanova-semibold-webfont.woff2),
+    url(./fonts/ProximaNovaCondensedSemiBold/proximanova-semibold-webfont.ttf),
+    url(./fonts/ProximaNovaCondensedSemiBold/proximanova-semibold.otf);
+}
+
+@font-face {
+    font-family: Titillium-Bold;
+    src: url(./fonts/TitilliumWebBold/titilliumweb-bold-webfont.eot),
+        url(./fonts/TitilliumWebBold/titilliumweb-bold-webfont.woff),
+        url(./fonts/TitilliumWebBold/titilliumweb-bold-webfont.woff2),
+        url(./fonts/TitilliumWebBold/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Titillium-SemiBold;
+    src: url(./fonts/TitilliumWebSemiBold/titilliumweb-semibold-webfont.eot),
+        url(./fonts/TitilliumWebSemiBold/titilliumweb-semibold-webfont.svg),
+        url(./fonts/TitilliumWebSemiBold/titilliumweb-semibold-webfont.woff),
+        url(./fonts/TitilliumWebSemiBold/titilliumweb-semibold-webfont.woff2),
+        url(./fonts/TitilliumWebSemiBold/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Titillium-Regular;
+    src: url(./fonts/TitilliumWebRegular/titilliumweb-regular-webfont.eot),
+        url(./fonts/TitilliumWebRegular/titilliumweb-regular-webfont.woff),
+        url(./fonts/TitilliumWebRegular/titilliumweb-regular-webfont.woff2),
+        url(./fonts/TitilliumWebRegular/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family:Titillium-Black ;
+    src: url(./fonts/TitilliumWebBlack/titilliumweb-black-webfont.eot),
+    url(./fonts/TitilliumWebBlack/titilliumweb-black-webfont.woff),
+    url(./fonts/TitilliumWebBlack/titilliumweb-black-webfont.woff2),
+    url(./fonts/TitilliumWebBlack/titilliumweb-black-webfont.ttf);
+}
+@font-face {
+    font-family: Titillium-Light ;
+    src: url(./fonts/TitilliumWebLight/titilliumweb-light-webfont.eot),
+    url(./fonts/TitilliumWebLight/titilliumweb-light-webfont.woff),
+    url(./fonts/TitilliumWebLight/titilliumweb-light-webfont.woff2),
+    url(./fonts/TitilliumWebLight/titilliumweb-light-webfont.ttf);
+}

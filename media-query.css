@@ -1,0 +1,241 @@
+/* header */
+
+@media only screen and (min-width:300px) and (max-width:615px){
+   
+    .top-bar{
+       margin-right: 0;
+    }
+    .headerContent{
+        top:50%;
+        left: 20%;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .bottomContent{
+        width: 100%;
+        left: 0;
+        top: 58%;
+    }
+    .bottomPara{
+        font-size: 18px;
+        text-align: center;
+    }
+    .navigations{
+        display: none;
+    }
+    .nav{
+        left:0;
+        align-items: end;
+    }
+    .left{
+        width: 85%;
+    }
+    .left img{
+        width: 90%;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .mobileNav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: gray;
+        width: 100%;
+        padding: 10px;
+        top:22%;
+    }
+    .mobileNav a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        text-transform: uppercase;
+        font-family: ProximaNova-Regular;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .mobileNav a:hover{
+        background-color: darkgray;
+    }
+    .btn1{
+        width: 96%;
+        text-align: center;
+    }
+    .btn1:hover{
+        background-color: cornflowerblue;
+    }
+}
+
+@media only screen and (min-width:615px) and (max-width:999px){
+    .mobile-nav{
+        display: none;
+    }
+    .top-bar{
+        margin-right: 20px;
+    }
+    .right{
+        margin-top: 20px;
+    }
+    .btn1{
+        padding: 10px;
+    }
+    .headerContent{
+        left: 30%;
+    }
+    .bottomContent{
+        left: 30%;
+        width: 50%;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1140px){
+    .top-bar {
+        margin-right: 10px;
+    }
+    .headerContent {
+        left: 4%;
+    }
+    
+    .bottomContent {
+        left: 4%;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:615px){
+    .portfolio-header>h1{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 30px;
+    }
+  .grid{
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: auto;
+      
+  }
+  .box1, .box2, .box3{
+      width: 100%;
+      margin-left:0;
+      margin-top: 10px;
+  }
+  .portfolio-part2{
+      margin-top: 0;
+  }
+  .part1{
+      flex-direction: column;
+      top: 0;
+  }
+  .part1 span{
+      margin-top: 25px;
+  }
+  .part1 h1{
+      font-size: 35px;
+  }
+  .picture{
+      display: none;
+  }
+  .wrapper2{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .part3, .part2{
+     
+      margin-left: 0;
+      margin-top: 10px;
+  }
+  .section3{
+    background-image: none;
+    min-height: 200px;
+  }
+  .detail-section{
+      flex-direction: column;
+      top: 50%;
+      left: 23%;
+  }
+  .d1, .d2{
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width:615px) and (max-width:800px){
+    img{
+        object-fit: contain;
+    }
+.grid {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: auto;
+
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .picture{
+        display: none;
+    }
+        .portfolio-part2 {
+            margin-top: 0;
+            min-height: 550px;
+        }
+        .part1 {
+            flex-direction: column;
+            top: 0;
+        }
+        .wrapper{
+            min-height: 185px;
+        }
+       
+        .section3 {
+            background-image: none;
+            min-height: 200px;
+            
+        }
+        
+        .detail-section {
+            top: 50%;
+            left: 13%;
+        }
+        
+        .d1,
+        .d2 {
+            width: 50%;
+        }
+}
+@media only screen and (min-width:800px) and (max-width:1200px){
+    .picture{
+        display: none;
+    }
+    .portfolio-part2 {
+        margin-top: 0;
+    }
+    .part1{
+        top: 50%;
+    }
+         .section3 {
+             background-image: none;
+             min-height: 200px;
+            
+         }
+    
+         .detail-section {
+            position: static;
+            margin: auto;
+         }
+    
+         .d1,
+         .d2 {
+             width: 50%;
+         }
+}
