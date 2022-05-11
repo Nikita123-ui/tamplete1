@@ -150,16 +150,59 @@
   }
   .section3{
     background-image: none;
-    min-height: 200px;
+    /* min-height: 200px; */
   }
   .detail-section{
       flex-direction: column;
-      top: 50%;
+      top: 0%;
       left: 23%;
   }
   .d1, .d2{
       width: 100%;
   }
+  .row{
+      flex-direction: column;
+  }
+  .subPara{
+      margin-top: 5px;
+  }
+  .head, .subPara{
+      width: 100%;
+  }
+  form{
+    width: 100%;
+    margin-left: -10px;
+  }
+  .contact-head{
+      margin-left: 0;
+  }
+  .btn4{
+      padding: 10px;
+  }
+  form>button{
+      position: static;
+      /* top: 65%;
+      left: 40%; */
+      margin-left: 5px;
+  }
+  form>img{
+      display: none;
+  }
+  .fcontainer, .fcontainer2{
+      flex-direction: column;
+  }
+  .fbox1, .fbox2, .fbox3{
+      width: 100%;
+      margin-left: 0;
+  }
+.footer-link, .social-media{
+    width: 100%;
+    margin-left: 0;
+}
+.social-media{
+    margin-top: 10px;
+}
+
 }
 
 @media only screen and (min-width:615px) and (max-width:800px){
@@ -193,24 +236,71 @@
             flex-direction: column;
             top: 0;
         }
+        .part1 span{
+            margin-top: 40px;
+        }
         .wrapper{
             min-height: 185px;
         }
        
         .section3 {
             background-image: none;
-            min-height: 200px;
+            /* min-height: 200px; */
             
         }
         
         .detail-section {
-            top: 50%;
+            top: 0;
             left: 13%;
         }
         
         .d1,
         .d2 {
             width: 50%;
+        }
+        .head >h1{
+            font-size: 30px;
+        }
+        .subPara{
+            margin-top: 0;
+        }
+        form {
+            width: 100%;
+            /* margin-left: -20px; */
+         }
+        
+        /* .contact-head {
+            margin-left: 0;
+        } */
+        
+        .btn4 {
+            padding: 10px;
+         }
+        
+        form>button {
+            top: 65%;
+            left: 40%;
+        }
+        
+        form>img {
+            display: none;
+        }
+        .fcontainer,
+        .fcontainer2 {
+          flex-direction: column;
+        }
+        
+        .fbox1,
+        .fbox2,
+        .fbox3 {
+            width: 100%;
+            margin-left: 0;
+        }
+        
+        .footer-link,
+        .social-media {
+            width: 100%;
+            margin-left: 0;
         }
 }
 @media only screen and (min-width:800px) and (max-width:1200px){
@@ -238,4 +328,13 @@
          .d2 {
              width: 50%;
          }
+         form {
+             width: 100%;
+            margin-left: -20px;
+            
+         }
+         form>button {
+             top: 65%;
+             left: 40%;
+      }
 }

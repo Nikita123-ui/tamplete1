@@ -1,186 +1,305 @@
-.portFolio_section{
-    background-color: #ededed;
-    padding: 32px;
+.portFolio_section {
+  background-color: #ededed;
+  padding: 32px;
 }
-.portfolio-header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.portfolio-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.portfolio-header > h1{
-    font-family: Titillium-Bold;
-    font-size: 40px;
-    color: #1361aa;
-    margin-bottom: 75px;
-    line-height: 1.38;
+.portfolio-header > h1 {
+  font-family: Titillium-Bold;
+  font-size: 40px;
+  color: #1361aa;
+  margin-bottom: 75px;
+  line-height: 1.38;
 }
-.grid{
-    display: flex;
-    justify-content: space-around;
-    padding: 0 50px;
-    max-width: 1200px;
-    margin: auto;
-    margin-right: 38px;
-    margin-left: -10px;
+.grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  max-width: 1200px;
+  margin: auto;
+  margin-right: 38px;
+  margin-left: -10px;
 }
-.box1, .box2, .box3{
-    width: 33.33%;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
-    background-color: #fff;
-    margin-left: 50px;
+.box1,
+.box2,
+.box3 {
+  width: 33.33%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  margin-left: 50px;
 }
 
-.box1 img{
-    width: 100%;
-    overflow: hidden;
+.box1 img {
+  width: 100%;
+  overflow: hidden;
 }
 .box2 img {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 .box3 img {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
-.div2{
-    padding: 10px 30px 30px 30px;
-    color: #262626;
+.div2 {
+  padding: 10px 30px 30px 30px;
+  color: #262626;
 }
-.div2 > h2{
-    margin-top:5px ;
-    margin-bottom: 8px;
-    font-size: 20px;
-    font-family: ProximaNova-Bold;
+.div2 > h2 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-family: ProximaNova-Bold;
 }
-.div2>p{
-    margin: 0;
-    font-size: 16px;
-    font-family: ProximaNova-Light;
-    line-height: 1.56;
+.div2 > p {
+  margin: 0;
+  font-size: 16px;
+  font-family: ProximaNova-Light;
+  line-height: 1.56;
 }
-.portfolio-part2{
-    background-image: url(./images/img1.png);
-    height: 713px;
-    margin-top: -80px;
-    background-position: center center;
+.portfolio-part2 {
+  background-image: url(./images/img1.png);
+  height: 713px;
+  margin-top: -80px;
+  background-position: center center;
 }
-.wrapper{
-    max-width: 800px;
-    margin: auto;
-    min-height: 230px;
-    position: relative;
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  min-height: 230px;
+  position: relative;
 }
-.part1{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    top: 60%;
+.part1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 60%;
 }
-.part1 img{
-    object-fit: contain;
-    margin-top: 10px;
+.part1 img {
+  object-fit: contain;
+  margin-top: 10px;
 }
-.part1 span{
-    font-size: 40px;
-    font-family: ProximaNova-SemiBold;
-    line-height: 0.7;
-    letter-spacing: 2px;
-    color: #fff;
-   
+.part1 span {
+  font-size: 40px;
+  font-family: ProximaNova-SemiBold;
+  line-height: 0.7;
+  letter-spacing: 2px;
+  color: #fff;
 }
-.part1 h1{
-    font-size: 45px;
-    font-family: Titillium-Bold;
-    color: #fff;
-    line-height: 1.22;
+.part1 h1 {
+  font-size: 45px;
+  font-family: Titillium-Bold;
+  color: #fff;
+  line-height: 1.22;
 }
-.picture{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.pic1, .pic2{
-    width: 50%;
-    overflow: hidden;
-}
-
-.wrapper2{
-    display: flex;
-    justify-content: space-between;
-}
-.part2, .part3{
-    font-size: 16px;
-    font-family: ProximaNova-Regular;
-    color: #fff;
-    line-height: 1.25;  
-    opacity: .75;
-    margin-left: 50px;
-    width: 50%;
-}
-.part3{
-    margin-left: 100px;
+.pic1,
+.pic2 {
+  width: 50%;
+  overflow: hidden;
 }
 
-li{
-    margin-bottom: 10px;
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
 }
-.section3{
-    background-image: url(./images/Springshocks.png);
-    min-height: 400px;
-    background-repeat: no-repeat;
-    background-position: -40px;
-    position: relative;
+.part2,
+.part3 {
+  font-size: 16px;
+  font-family: ProximaNova-Regular;
+  color: #fff;
+  line-height: 1.25;
+  opacity: 0.75;
+  margin-left: 50px;
+  width: 50%;
 }
-.detail-section{
-    max-width: 960px;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    left: 46%;
-    top: 20%;
-    
+.part3 {
+  margin-left: 100px;
 }
 
-.d1{
-    margin-right: 80px;
+li {
+  margin-bottom: 10px;
 }
-.d1 h1{
-    font-size: 40px;
-    color: #262626;
-    font-family: Titillium-Bold;
-    line-height: 1.25;
+.section3 {
+  background-image: url(./images/Springshocks.png);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: -40px;
+  position: relative;
 }
-.d2{
-    /* width: 55%; */
-    margin-top: 20px;
+.detail-section {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 46%;
+  top: 20%;
 }
-.btn2{
-    margin-top: 20px;
-    border: none;
-    color: white;
-    text-transform: uppercase;
-    padding: 15px 30px;
-    font-size: 20px;
-    cursor: pointer;
-    background-color: black;
-    font-family: ProximaNova-Bold;
-    letter-spacing: .45px;
+
+.d1 {
+  margin-right: 80px;
+}
+.d1 h1 {
+  font-size: 40px;
+  color: #262626;
+  font-family: Titillium-Bold;
+  line-height: 1.25;
+}
+.d2 {
+  /* width: 55%; */
+  margin-top: 20px;
+}
+.btn2 {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: black;
+  font-family: ProximaNova-Bold;
+  letter-spacing: 0.45px;
 }
 .rounded-border {
-    border-radius: 50%;
-    background-color: #1361aa;
+  border-radius: 50%;
+  background-color: #1361aa;
+  color: #fff;
+  line-height: 2.08;
+  text-align: center;
+  padding: 3px 15px;
+  font-family: Titillium-Black;
+  font-size: 24px;
+}
+.d2 > h3 {
+  font-family: ProximaNova-Bold;
+  margin: 5px;
+  text-transform: uppercase;
+}
+.section4{
+    background-color: #505050;
+    padding: 32px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: auto;
+}
+.head,
+.subPara {
+    width: 50%;
+}
+.head >h1{
+    font-size: 40px;
+    font-family: Titillium-Light;
+    line-height: 1.53;
     color: #fff;
-    line-height: 2.08;
-    text-align: center;
-    padding: 3px 15px;
-    font-family: Titillium-Black;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.head >p{
+    color: #fff;
+    margin-top: 5px;
+    font-family: ProximaNova-Medium;
+    line-height: 1.56;
+}
+.btn3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: ProximaNova-Bold;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #29335c;
+    border: none;
+    padding: 15px;
+}
+.subPara{
+    font-family: ProximaNova-Light;
+    color: #fff;
+    margin-top: 75px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-section {
+    background: url(./images/img2.png) no-repeat center center;
+    min-height: 600px;
+    position: relative;
+    padding: 32px;
+    background-size: cover;
+}
+
+.contact-head {
+    color: #fff;
+    font-family: Titillium-Bold;
+    margin-left: 35%;
+    text-transform: capitalize;
+    letter-spacing: 1px;
     font-size: 24px;
 }
-.d2>h3 {
-    font-family: ProximaNova-Bold;
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+.inputValue {
+    width: 100%;
+    border: none;
+    padding: 16px 8px;
+    opacity: .36;
     margin: 5px;
+}
+
+.inputField {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type=email] {
+    width: 50%;
+}
+
+input[type=number] {
+    width: 50%;
+}
+
+::placeholder {
+    color: #000;
     text-transform: uppercase;
+}
+
+form>button {
+    position: absolute;
+    left: 60%;
+    top: 61%;
+}
+.btn4{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.9px;
+    font-family: ProximaNova XBold;
+    text-transform: uppercase;
+}
+
+form>img {
+    position: absolute;
+    left: 89%;
+    top: 70%;
 }

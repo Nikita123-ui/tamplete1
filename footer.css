@@ -1,0 +1,100 @@
+footer {
+    background: url(./images/footerbg.svg) no-repeat right -100px top -100px;
+    padding: 32px;
+}
+.fcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.fcontainer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fbox1, .fbox2, .fbox3{
+    width: 33.33%;
+}
+
+.foot-para {
+    font-family: ProximaNova-Regular;
+    font-size: 16px;
+    line-height: 1.63;
+    margin-top: 5px;
+}
+
+.fbox1 {
+    margin-left: 120px;
+}
+
+.fbox2 {
+    margin-left: 80px;
+}
+
+.fbox2>h3 {
+    color: #1361aa;
+    text-transform: uppercase;
+    font-family: ProximaNova-Bold;
+    font-size: 16px;
+}
+
+.fbox2 a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    font-family: ProximaNova-Regular;
+    line-height: 1.56;
+}
+
+.fbox3 {
+    margin-top: 50px;
+    margin-left: -120px;
+}
+
+.fbox3 a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    font-family: ProximaNova-Regular;
+    line-height: 1.56;
+}
+
+.footer-link {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 70%;
+}
+
+
+.footer-link a {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    font-family: ProximaNova-Regular;
+    line-height: 1.2;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.social-media{
+    width: 30%;
+   
+}
+.social-media a{
+   margin-left: 5px;
+}
+.social-media a:hover{
+    background-color: blue;
+}
+.rounded-border2{
+    border-radius: 50%;
+    background-color: #1361aa;
+    color: #fff;
+    line-height: 2.08;
+    text-align: center;
+    padding: 3px 10px;
+    font-family: Titillium-Black;
+    font-size: 24px;
+}
